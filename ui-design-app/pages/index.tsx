@@ -1,10 +1,14 @@
+import React from "react";
+import  TiltCard  from "../components/TiltCard";
+
 const HomePage = () => {
     return (
       <div>
+      <h1>Tilt Card</h1>
+      <TiltCard />
 
-        <h1>Welcome to the Homepage</h1>
 
-      </div>
+    </div>
     );
   };
   
